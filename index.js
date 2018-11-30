@@ -14,7 +14,8 @@ var config = require('./config.json');
 
 /********************************************************************************/
 //変数宣言
-var OBNIZ_ID = config["OBNIZ_ID"];
+//var OBNIZ_ID = config["OBNIZ_ID"];
+var OBNIZ_ID = process.env.OBNIZ_ID
 
 
 /********************************************************************************/
