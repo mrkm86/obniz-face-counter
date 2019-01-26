@@ -14,6 +14,8 @@ const obniz = new Obniz(process.env.OBNIZ_ID);
 const group_key1 = process.env.GROUP_KEY1;
 const group_key2 = process.env.GROUP_KEY2;
 
+app.set('port', (process.env.PORT || 3000));
+
 //-----------------------------------------------------------------------------------
 //[event] obniz.onconnect
 //-----------------------------------------------------------------------------------
