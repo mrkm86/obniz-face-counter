@@ -1,5 +1,5 @@
 {
-  "name": "hello-obniz",
+  "name": "obniz-face-counter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "azure-storage": "^2.10.2",
+    "bluebird": "^3.5.3",
     "date-utils": "^1.2.21",
+    "debug": "^4.1.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
     "obniz": "^1.13.1"
   }
 }
